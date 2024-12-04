@@ -1,0 +1,144 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* --------------Header---------------- */
+
+#cabecilla{
+    background-color: rgb(29, 41, 54);
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    border-bottom: rgb(22, 139, 218) 5px solid;
+}
+
+.contenido{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1500px;
+}
+
+.tituloHeader{
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.tituloDecorado{
+    margin-left: 10px;
+    color: rgb(22, 139, 218);
+}
+
+.menuNav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.links{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/* --------------Sección 1------------- */
+
+#seccion{
+    background-color: rgb(29, 41, 54);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.suscripción{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1480px;
+}
+
+.tituloSub{
+    color: aliceblue;
+    font-size: 14px;
+}
+
+.casilla{
+    width: 250px;
+    height: 30px;
+}
+
+.sub{
+    color: aliceblue;
+    background-color: rgb(224, 74, 48);
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: small;
+}
+
+/* ---------------Sección 2----------------- */
+
+#seccion2{
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenido2{
+    width: 1500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.primerPedazo{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fondoPrimerPedazo{
+    background-color:  rgb(218, 217, 217);
+    border: darkgray 2px solid;
+    margin-bottom: 5px;
+}
+
+.textoPrimerPedazo{
+    padding: 20px 50px;
+    text-align: left;
+}
+
+.segundoPedazo{
+    background-color: rgb(29, 41, 54);
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    width: 450px;
+    height: 200px
+}
+
+.textoPedazo1{
+    margin-left: 10px ;
+}
+
+.textoPedazo2{
+    padding: 0px 10px;
+    font-size: 14px;
+}
+
+/* --------------Footer------------------- */
+
+#pie{
+    background-color: rgb(22, 139, 218);
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue
+}
